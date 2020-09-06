@@ -107,6 +107,7 @@ class _HomePageState extends State<HomePage> {
                 child: Icon(
                   Icons.play_arrow,
                   size: 60,
+                  color: _textColor(context),
                 ),
                 onPressed: () {
                   Navigator.push(
